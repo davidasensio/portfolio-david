@@ -37,6 +37,15 @@ jQuery(function($) {
 
         //i18n
         //i18nFn();
+
+        $('#enLangIcon').click(function() {
+          //window.location.replace("../en/index.html");
+          window.location.href = "../en/index.html";
+        });
+        $('#esLangIcon').click(function() {
+          //window.location.replace("../es/index.html");
+          window.location.href = "../es/index.html";
+        });
     });
 
     var i18nFn = function() {
