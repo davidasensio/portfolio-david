@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="I Am David Asensio and this is my portfolio">
+	<meta name="keywords" content="david, asensio, personal portfolio, full stack developer, back-end and front-end developer, CV">
+	<meta name="author" content="davidasensioweb">
+
+	<title>I am David – Responsive Portfolio</title>
+
+  
+
+</head>
+
+<body>
+
+	<!-- Javascript -->
+	<script type='text/javascript'>		
+		debugger;
+		var langPages = {	
+			en:"en/",
+			es:"es/",
+			de:"de/"
+		};
+		
+		var language = (navigator.language || navigator.userLanguage).substring(0,2) 
+		var redirection = langPages[language];
+		 
+		if( (redirection) ) {
+			location.replace(redirection + "index.html");
+		} else {
+			location.replace("en/index.html");
+		}
+		
+	</script>
+	
+</body>
+</html>
