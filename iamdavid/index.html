@@ -20,17 +20,17 @@
 	<script type='text/javascript'>
 		debugger;
 		var langPages = {
-			en:"en",
-			es:"es"
+			en:"en/",
+			es:"es/"
 		};
 
 		var language = (navigator.language || navigator.userLanguage).substring(0,2)
 		var redirection = langPages[language];
 
 		if( (redirection) ) {
-			location.replace("index_" + redirection + ".html");
+			location.replace(redirection + "index.html");
 		} else {
-			location.replace("index_en.html");
+			location.replace("en/index.html");
 		}
 
 	</script>
