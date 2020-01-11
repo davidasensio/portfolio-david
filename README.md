@@ -1,6 +1,12 @@
 # portfolio-david
 My portfolio web - davidportfolioweb.firebaseapp.com
 
-Firebase deploy command:
+Firebase Tools install:
+```
+npm install -g firebase-tools
+```
 
->firebase deploy
+Firebase deploy command:
+```
+firebase deploy
+```
